@@ -10,7 +10,7 @@ nav{
  
     background-color: rgba(182, 134, 31, 0.658);
     height: 46px;
-    
+    /* position: fixed; */
 }
 .logo {
     font-size: 30px ;
@@ -23,6 +23,9 @@ nav{
     color: #fff;
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+.logo a:hover{
+    color:black;
 }
 .menu{
     display: flex;
@@ -42,7 +45,7 @@ nav{
     letter-spacing: 2px;
     /* text-align: center; */
 }
-.nav_link a :hover{
+.nav_link a:hover{
     color: black;
 }
 
